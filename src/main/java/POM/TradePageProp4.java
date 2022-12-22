@@ -65,9 +65,7 @@ public class TradePageProp4
 	      System.out.println("Availabe A/C Balance is  "+ funds);
 	   //   Utility.NeoUtility1.Screenshot(driver, funds);
 		  return funds;
-	
-		}		
-
+	    }		
 
 	 public void Logout(WebDriver driver) throws InterruptedException
 	    {Thread.sleep(500);
@@ -76,8 +74,5 @@ public class TradePageProp4
 	     logoutbutton.click();
 		// Reporter.log("Logging Out", true);
 		 System.out.println("Logging Out");
-     	}
-	
-	
-	
+     	}	
 }
