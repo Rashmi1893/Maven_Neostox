@@ -34,7 +34,7 @@ public class TradePageProp4
 			// Reporter.log("Clicking on close popup", true);
 			 System.out.println("Clicking on close popup");
 			 
-			 Thread.sleep(2000);
+			 Thread.sleep(3000);
 			 closepopup.click();
 			// Reporter.log("Clicking on closepopup", true);
 			 System.out.println("Clicking on closepopup");
