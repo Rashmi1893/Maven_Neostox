@@ -5,6 +5,7 @@
     <classes>
       <class name="TestClass.TC_001">
         <methods>
+          <include name="ValidateUserProfileName"/>
           <include name="SignUpUpstox"/>
           <include name="CheckAccBalance"/>
           <include name="LogOutNeostox"/>
